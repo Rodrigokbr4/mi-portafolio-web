@@ -1,13 +1,15 @@
 .ListaBotones {
     display: flex;
+    box-sizing: border-box;
     align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
     margin: 0;
     padding: 0;
     list-style: none;
-}
-
-.Lista {
-    padding: 0 0.4rem 0 0.4rem;
+    cursor: pointer;
+    gap: 0.8rem;
 }
 
 .BotonesContacto {
@@ -15,6 +17,8 @@
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
     padding: 0;
     margin: 0;
     width: 2.4rem;

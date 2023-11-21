@@ -2,7 +2,7 @@ import styles from './Contactos.module.css'
 export function Contactos() {
 	return (
 		<ul className={styles.ListaBotones}>
-			<li className={styles.Lista}>
+			<li>
 				<a
 					href='http://www.linkedin.com/in/rodrigo-cabrera-506130225/'
 					className={styles.BotonesContacto}
@@ -25,7 +25,7 @@ export function Contactos() {
 					</svg>
 				</a>
 			</li>
-			<li className={styles.Lista}>
+			<li>
 				<a
 					href='mailto:cabrerarodrigo481@gmail.com'
 					className={styles.BotonesContacto}
@@ -46,7 +46,7 @@ export function Contactos() {
 					</svg>
 				</a>
 			</li>
-			<li className={styles.Lista}>
+			<li>
 				<a
 					href='tel:+5493544620507'
 					className={styles.BotonesContacto}
@@ -67,7 +67,7 @@ export function Contactos() {
 					</svg>
 				</a>
 			</li>
-			<li className={styles.Lista}>
+			<li>
 				<a
 					href='http://'
 					className={styles.BotonesContacto}
