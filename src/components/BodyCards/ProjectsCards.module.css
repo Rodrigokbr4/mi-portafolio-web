@@ -7,21 +7,27 @@
     align-items: center;
     margin: 0;
     padding: 0;
-    gap: 1rem;
+    gap: 1.8rem;
 }
 
 .a{
     text-decoration: none;
+    padding: 0;
+    margin: 0;
 }
 
 .img{
     width: 100%;
     border-radius: 0.4rem;
-    
+    padding: 0;
+    margin: 0;
 }
 
 .h1, .p{
     color: white;
     text-align: left;
+    margin: 0;
+    padding: 0.6rem 0 0 0;
+
 }
 
