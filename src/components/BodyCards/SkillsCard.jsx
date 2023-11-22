@@ -9,12 +9,16 @@ export function SkillsCard() {
 					width='3em'
 					height='3em'
 					viewBox='0 0 32 32'
+					alt='JavaScript Icono'
+					title='JavaScript CSS'
 				>
 					<path fill='#f5de19' d='M2 2h28v28H2z' />
 					<path d='M20.809 23.875a2.866 2.866 0 0 0 2.6 1.6c1.09 0 1.787-.545 1.787-1.3c0-.9-.716-1.222-1.916-1.747l-.658-.282c-1.9-.809-3.16-1.822-3.16-3.964c0-1.973 1.5-3.476 3.853-3.476a3.889 3.889 0 0 1 3.742 2.107L25 18.128A1.789 1.789 0 0 0 23.311 17a1.145 1.145 0 0 0-1.259 1.128c0 .789.489 1.109 1.618 1.6l.658.282c2.236.959 3.5 1.936 3.5 4.133c0 2.369-1.861 3.667-4.36 3.667a5.055 5.055 0 0 1-4.795-2.691Zm-9.295.228c.413.733.789 1.353 1.693 1.353c.864 0 1.41-.338 1.41-1.653v-8.947h2.631v8.982c0 2.724-1.6 3.964-3.929 3.964a4.085 4.085 0 0 1-3.947-2.4Z' />
 				</svg>
 			),
 			titulo: 'JavaScript',
+			alt: 'JavaScript Icono',
+			title: 'JavaScript CSS',
 		},
 		{
 			Icono: (
@@ -23,6 +27,8 @@ export function SkillsCard() {
 					width='3em'
 					height='3em'
 					viewBox='0 0 256 154'
+					alt='Tailwind CSS Icono'
+					title='Tailwind CSS'
 				>
 					<defs>
 						<linearGradient
@@ -43,6 +49,8 @@ export function SkillsCard() {
 				</svg>
 			),
 			titulo: 'Tailwind CSS',
+			alt: 'Tailwind CSS Icono',
+			title: 'Tailwind CSS',
 		},
 		{
 			Icono: (
@@ -51,6 +59,8 @@ export function SkillsCard() {
 					width='3em'
 					height='3em'
 					viewBox='0 0 128 128'
+					alt='CSS Icono'
+					title='CSS'
 				>
 					<path
 						fill='#1572B6'
@@ -79,6 +89,8 @@ export function SkillsCard() {
 				</svg>
 			),
 			titulo: 'CSS',
+			alt: 'CSS Icono',
+			title: 'CSS',
 		},
 		{
 			Icono: (
@@ -87,6 +99,8 @@ export function SkillsCard() {
 					width='3em'
 					height='3em'
 					viewBox='0 0 128 128'
+					alt='HTML Icono'
+					title='HTML'
 				>
 					<path
 						fill='#E44D26'
@@ -104,6 +118,8 @@ export function SkillsCard() {
 				</svg>
 			),
 			titulo: 'HTML',
+			alt: 'HTML Icono',
+			title: 'HTML',
 		},
 		{
 			Icono: (
@@ -112,6 +128,8 @@ export function SkillsCard() {
 					width='3em'
 					height='3em'
 					viewBox='0 0 256 228'
+					alt='React Icono'
+					title='React'
 				>
 					<path
 						fill='#00D8FF'
@@ -120,6 +138,8 @@ export function SkillsCard() {
 				</svg>
 			),
 			titulo: 'React',
+			alt: 'React Icono',
+			title: 'React',
 		},
 		{
 			Icono: (
@@ -128,6 +148,8 @@ export function SkillsCard() {
 					width='3em'
 					height='3em'
 					viewBox='0 0 256 255'
+					alt='Python Icono'
+					title='Python'
 				>
 					<defs>
 						<linearGradient
@@ -162,6 +184,8 @@ export function SkillsCard() {
 				</svg>
 			),
 			titulo: 'Python',
+			alt: 'Python Icono',
+			title: 'Python',
 		},
 		{
 			Icono: (
@@ -170,6 +194,8 @@ export function SkillsCard() {
 					width='3em'
 					height='3em'
 					viewBox='0 0 32 32'
+					alt='Django Icono'
+					title='Django'
 				>
 					<path
 						fill='#44b78b'
@@ -182,6 +208,8 @@ export function SkillsCard() {
 				</svg>
 			),
 			titulo: 'Django',
+			alt: 'Django Icono',
+			title: 'Django',
 		},
 	]
 	return (
@@ -189,7 +217,9 @@ export function SkillsCard() {
 			<ul className={styles.ul}>
 				{Skills.map((item, index) => (
 					<li key={index} className={styles.li}>
-						<div className={styles.Icono}>{item.Icono}</div>
+						<div className={styles.Icono} alt={item.alt} title={item.title}>
+							{item.Icono}
+						</div>
 						<h1 className={styles.titulo}>{item.titulo}</h1>
 					</li>
 				))}

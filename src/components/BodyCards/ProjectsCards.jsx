@@ -11,6 +11,8 @@ export function ProjectsCards() {
 				' JSX y Vite.',
 			Img: ImgHotel,
 			url: 'https://ameliehotel.000webhostapp.com/',
+			alt: 'Pagina web Hotel',
+			title: 'Pagina web Hotel',
 		},
 		{
 			Title: 'Tienda X',
@@ -20,6 +22,8 @@ export function ProjectsCards() {
 				' JSX y Vite.',
 			Img: ImgEcommerce,
 			url: 'https://rodrigokbr4.github.io/mi-primer-tienda-online/',
+			alt: 'Ecommerce',
+			title: 'Ecommerce',
 		},
 	]
 	return (
@@ -30,10 +34,10 @@ export function ProjectsCards() {
 						<a
 							href={item.url}
 							target='_blank'
-							className={styles.a}
 							rel='noreferrer'
-							alt='Pagina web Hotel'
-							title='Pagina web hotel'
+							className={styles.a}
+							alt={item.alt}
+							title={item.title}
 						>
 							<img src={item.Img} alt='' className={styles.img} />
 							<h1 className={styles.h1}>{item.Title}</h1>
