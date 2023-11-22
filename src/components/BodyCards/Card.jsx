@@ -1,4 +1,5 @@
 import styles from './Card.module.css'
+import { ContactCard } from './ContactCard'
 import { ProjectsCards } from './ProjectsCards'
 import { SkillsCard } from './SkillsCard'
 
@@ -13,6 +14,7 @@ export function Card() {
 		},
 		{ title: 'Portafolio', content: <ProjectsCards /> },
 		{ title: 'Skills', content: <SkillsCard /> },
+		{ title: 'Contacto', content: <ContactCard /> },
 	]
 	return (
 		<div className={styles.card}>
