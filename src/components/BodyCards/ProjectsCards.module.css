@@ -23,6 +23,10 @@
     margin: 0;
 }
 
+.h1 {
+    font-size: larger;
+}
+
 .h1, .p{
     color: white;
     text-align: left;

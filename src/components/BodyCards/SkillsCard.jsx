@@ -220,7 +220,7 @@ export function SkillsCard() {
 						<div className={styles.Icono} alt={item.alt} title={item.title}>
 							{item.Icono}
 						</div>
-						<h1 className={styles.titulo}>{item.titulo}</h1>
+						<h3 className={styles.titulo}>{item.titulo}</h3>
 					</li>
 				))}
 			</ul>

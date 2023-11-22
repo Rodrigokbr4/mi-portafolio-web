@@ -96,7 +96,7 @@ export function ContactCard() {
 						>
 							{item.Icon}
 						</a>
-						<h4 className={styles.h4}>{item.Text}</h4>
+						<h3 className={styles.h3}>{item.Text}</h3>
 					</li>
 				))}
 			</ul>

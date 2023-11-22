@@ -11,6 +11,12 @@
     text-align: left;
     gap: 0.8rem;
   }
+
+  .cardTitle {
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+  }
   
   .cardItem {
     border-radius: 0.4rem;
@@ -20,7 +26,7 @@
   }
     
   .cardContent {
-    padding: 0.8rem 0.8rem 0 0.8rem;
+    padding: 1rem 0.8rem 0 0.8rem;
     border-radius: 0 0 0.4rem 0.4rem;
   }
   

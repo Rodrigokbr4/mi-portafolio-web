@@ -20,6 +20,10 @@
     gap: 1rem;
 }
 
+.titulo {
+    font-size: medium;
+}
+
 .Icono, .titulo {
     margin: 0;
     margin: 0;

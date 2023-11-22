@@ -20,7 +20,7 @@ export function Card() {
 		<div className={styles.card}>
 			{CardsItems.map((item, index) => (
 				<div key={index} className={styles.cardItem}>
-					<div>{item.title}</div>
+					<h2 className={styles.cardTitle}>{item.title}</h2>
 					<div className={styles.cardContent}>{item.content}</div>
 				</div>
 			))}
