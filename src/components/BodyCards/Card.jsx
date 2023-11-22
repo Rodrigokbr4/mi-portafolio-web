@@ -1,4 +1,5 @@
-import styles from './Accordion.module.css'
+import styles from './Card.module.css'
+import { ProjectsCards } from './ProjectsCards'
 
 export function Card() {
 	const CardsItems = [
@@ -9,7 +10,7 @@ export function Card() {
 				'tecnologías, dispuesto a aprender y afrontar nuevos desafíos ' +
 				'aplicando mis conocimientos.',
 		},
-		{ title: 'Portafolio', content: 'Contenido de la sección 2' },
+		{ title: 'Portafolio', content: <ProjectsCards /> },
 		{ title: 'Sección 3', content: 'Contenido de la sección 3' },
 	]
 	return (

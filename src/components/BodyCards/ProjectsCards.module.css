@@ -1,0 +1,27 @@
+.ul {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+
+.a{
+    text-decoration: none;
+}
+
+.img{
+    width: 100%;
+    border-radius: 0.4rem;
+    
+}
+
+.h1, .p{
+    color: white;
+    text-align: left;
+}
+
