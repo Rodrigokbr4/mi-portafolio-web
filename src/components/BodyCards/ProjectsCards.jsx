@@ -19,6 +19,7 @@ export function ProjectsCards() {
 				'utilizando las siguientes tecnologías: React, Tailwind CSS, HTML,' +
 				' JSX y Vite.',
 			Img: ImgEcommerce,
+			url: 'https://rodrigokbr4.github.io/mi-primer-tienda-online/',
 		},
 	]
 	return (
