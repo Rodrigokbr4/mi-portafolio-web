@@ -6,8 +6,8 @@ export function ContactCard() {
 			Icon: (
 				<svg
 					xmlns='http://www.w3.org/2000/svg'
-					width='1em'
-					height='1em'
+					width='1.6em'
+					height='1.6em'
 					viewBox='0 0 24 24'
 				>
 					<path
@@ -25,8 +25,8 @@ export function ContactCard() {
 			Icon: (
 				<svg
 					xmlns='http://www.w3.org/2000/svg'
-					width='1em'
-					height='1em'
+					width='1.6em'
+					height='1.6em'
 					viewBox='0 0 24 24'
 				>
 					<path
@@ -44,8 +44,8 @@ export function ContactCard() {
 			Icon: (
 				<svg
 					xmlns='http://www.w3.org/2000/svg'
-					width='1em'
-					height='1em'
+					width='1.6em'
+					height='1.6em'
 					viewBox='0 0 16 16'
 				>
 					<path
@@ -63,8 +63,8 @@ export function ContactCard() {
 			Icon: (
 				<svg
 					xmlns='http://www.w3.org/2000/svg'
-					width='1em'
-					height='1em'
+					width='1.6em'
+					height='1.6em'
 					viewBox='0 0 24 24'
 				>
 					<path
@@ -96,7 +96,7 @@ export function ContactCard() {
 						>
 							{item.Icon}
 						</a>
-						<h1 className={styles.h1}>{item.Text}</h1>
+						<h4 className={styles.h4}>{item.Text}</h4>
 					</li>
 				))}
 			</ul>
