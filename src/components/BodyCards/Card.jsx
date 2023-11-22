@@ -1,5 +1,6 @@
 import styles from './Card.module.css'
 import { ProjectsCards } from './ProjectsCards'
+import { SkillsCard } from './SkillsCard'
 
 export function Card() {
 	const CardsItems = [
@@ -11,7 +12,7 @@ export function Card() {
 				'aplicando mis conocimientos.',
 		},
 		{ title: 'Portafolio', content: <ProjectsCards /> },
-		{ title: 'Sección 3', content: 'Contenido de la sección 3' },
+		{ title: 'Skills', content: <SkillsCard /> },
 	]
 	return (
 		<div className={styles.card}>
