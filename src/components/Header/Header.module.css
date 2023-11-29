@@ -1,19 +1,28 @@
 
     .Header {
-        margin: 3rem 1rem 1rem 1rem;
         display: flex;
+        box-sizing: border-box;
+        flex-wrap: nowrap;
         flex-direction: column;
-        align-items: center; 
-       
-        
-        
+        align-items: center;        
+        margin: 3rem 1rem 1rem 1rem;
     }
     
+    .Env{
+      display: flex;
+        box-sizing: border-box;
+        flex-wrap: nowrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
     .Img {
       height: 8rem;
       width: 8rem;
       border-radius: 50%;
-      box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;      
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+      filter: invert(0%) !important;     
     }
 
     .H1 {
@@ -59,44 +68,54 @@
   
   @media screen and (min-width: 1025px) {
     .Header {
-       display: grid;
-       grid-auto-columns:  max-content;
-       align-items: center;
-       justify-content: center;       
-       
-       grid-template-rows: 3.5rem 3.5rem 3.5rem;
-       gap: 1rem;
-       padding: 2rem 0 1rem 0;
-        
+       display: flex;
+       box-sizing: border-box;
+       flex-direction: row;
+       flex-wrap: nowrap;
+       justify-content: space-between;
+       padding: 10rem 0 10rem 0;
+    }
+    
+    .Env {
+      display: flex;
+      box-sizing: border-box;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      gap: 1.2rem;
     }
     
     .Img {
-      grid-column: 2;
-      grid-row: 1 / span 3;
-      height: 12rem;
-      width: 12rem;
+      display: flex;
+      box-sizing: border-box;
+      flex-wrap: nowrap;      
+      align-items: end;
+      order: 3;
+      height: 18rem;
+      width: 18rem;
       border-radius: 50%;
       box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-      margin-left: 10rem;
-          
+      
     }
 
     .H1 {
-        grid-row: 1;
+        
         font-family: Poppins;
-        font-size: 2.3rem;
+        font-size: 4rem;
         margin: 0;
         padding: 0;
     }
 
     .H2 {
-      grid-row: 2;
+      
       margin: 0;
       padding: 0;
+      font-size: 2.5rem;
     }
 
     .Contactos {
-      grid-row: 3;
+      
       margin: 0;
       padding: 0;
     }

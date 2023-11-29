@@ -2,8 +2,6 @@
     display: flex;
     box-sizing: border-box;
     align-items: center;
-    justify-content: center;
-    flex-direction: row;
     flex-wrap: nowrap;
     margin: 0;
     padding: 0;
