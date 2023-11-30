@@ -7,7 +7,7 @@
     align-items: center;
     margin: 0;
     padding: 0;
-    gap: 1.8rem;
+    gap: 2.5rem;
 }
 
 .a{
@@ -35,3 +35,14 @@
 
 }
 
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .ul {
+      gap: 3.2rem;
+    }
+  }
+  
+  @media screen and (min-width: 1025px) {
+    .ul {
+      gap: 3.8rem;
+    }
+  }
