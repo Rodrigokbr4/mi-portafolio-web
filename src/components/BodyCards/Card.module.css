@@ -10,12 +10,17 @@
     color: white;
     text-align: left;
     gap: 0.8rem;
+    
   }
 
   .cardTitle {
     font-size: 1.3rem;
     margin: 0;
     padding: 0;
+  }
+
+  .transition {
+    transition: color 3.5s ease-in-out; 
   }
   
   .cardItem {
@@ -30,3 +35,18 @@
     border-radius: 0 0 0.4rem 0.4rem;
   }
   
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    .cardTitle {
+      font-size: 1.3rem;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  
+  @media screen and (min-width: 1025px) {
+    .cardTitle {
+      font-size: 1.3rem;
+      margin: 0;
+      padding: 0;
+    }
+  }

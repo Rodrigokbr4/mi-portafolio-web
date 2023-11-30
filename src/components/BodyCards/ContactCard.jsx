@@ -20,6 +20,7 @@ export function ContactCard() {
 			alt: 'LinkedIn',
 			description: 'LinkedIn',
 			Text: 'LinkedIn',
+			Color: '#0077B5',
 		},
 		{
 			Icon: (
@@ -39,6 +40,7 @@ export function ContactCard() {
 			alt: 'Email',
 			description: 'Email',
 			Text: 'cabrerarodrigo481@gmail.com',
+			Color: '#c71610',
 		},
 		{
 			Icon: (
@@ -58,6 +60,7 @@ export function ContactCard() {
 			alt: 'Numero de teléfono',
 			description: 'Teléfono',
 			Text: '3544-620507',
+			Color: '#25D366',
 		},
 		{
 			Icon: (
@@ -79,6 +82,7 @@ export function ContactCard() {
 			alt: 'Curriculum Vitae',
 			description: 'Curriculum Vitae',
 			Text: 'Curriculum Vitae',
+			Color: '#DBFF33',
 		},
 	]
 	return (
@@ -93,6 +97,7 @@ export function ContactCard() {
 							className={styles.a}
 							target='_blank'
 							rel='noreferrer'
+							style={{ color: item.Color }}
 						>
 							{item.Icon}
 						</a>

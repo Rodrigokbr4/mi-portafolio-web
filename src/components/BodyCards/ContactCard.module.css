@@ -28,6 +28,10 @@
 }
 
 .h3 {
+    word-break: break-word;
+    line-break: normal;
+    hyphens: auto;
+    overflow-wrap: break-word;
     text-align: left;
     padding: 0;
     margin: 0;

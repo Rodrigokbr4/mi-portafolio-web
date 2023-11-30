@@ -6,11 +6,11 @@ import { BodyCards } from './components/BodyCards/BodyCards.jsx'
 function App() {
 	return (
 		<>
-			<header className={styles.Header}>
+			<section className={styles.Section}>
 				<AnimatedCursor
 					showSystemCursor={true}
-					innerSize={54}
-					outerSize={65}
+					innerSize={3}
+					outerSize={40}
 					color='255, 255, 255'
 					outerAlpha={0.2}
 					innerScale={0.7}
@@ -39,7 +39,7 @@ function App() {
 				/>
 				<Header />
 				<BodyCards />
-			</header>
+			</section>
 		</>
 	)
 }
