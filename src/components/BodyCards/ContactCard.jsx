@@ -1,4 +1,5 @@
 import styles from './ContactCard.module.css'
+import Curriculum from '../../assets/CurriculumVitae/RodrigoCabreraCV.pdf'
 
 export function ContactCard() {
 	const ContactItems = [
@@ -68,19 +69,17 @@ export function ContactCard() {
 					xmlns='http://www.w3.org/2000/svg'
 					width='1.6em'
 					height='1.6em'
-					viewBox='0 0 24 24'
+					viewBox='0 0 512 512'
 				>
 					<path
 						fill='currentColor'
-						fillRule='evenodd'
-						d='M4.172 3.172C3 4.343 3 6.229 3 10v4c0 3.771 0 5.657 1.172 6.828C5.343 22 7.229 22 11 22h2c3.771 0 5.657 0 6.828-1.172C21 19.657 21 17.771 21 14v-4c0-3.771 0-5.657-1.172-6.828C18.657 2 16.771 2 13 2h-2C7.229 2 5.343 2 4.172 3.172ZM8 9.25a.75.75 0 0 0 0 1.5h8a.75.75 0 0 0 0-1.5H8Zm0 4a.75.75 0 0 0 0 1.5h5a.75.75 0 0 0 0-1.5H8Z'
-						clipRule='evenodd'
+						d='M249.18 328.324c-9.788 15.384-19.179 30.434-40.222 45.055c-11.256 7.89-37.164 23.306-73.99 23.306C64.709 396.685 8 345.605 8 255.801c0-78.486 53.345-140.486 128.466-140.486c30.434 0 57.474 10.521 77.387 26.304c18.414 14.65 27.038 29.304 34.563 42.456l-52.58 26.273c-3.762-8.626-8.29-17.649-19.913-27.406c-12.784-10.155-25.54-13.152-36.46-13.152c-42.821 0-65.364 39.825-65.364 84.145c0 58.238 29.7 87.143 65.364 87.143c34.563 0 48.48-24.042 57.474-39.426l52.243 26.673zm184.194-204.75H504l-92.037 265.22h-67.597l-90.904-265.22h70.625l54.843 188.6z'
 					/>
 				</svg>
 			),
-			href: '',
+			href: Curriculum,
 			alt: 'Curriculum Vitae',
-			description: 'Curriculum Vitae',
+			description: 'Descargar Curriculum Vitae',
 			Text: 'Curriculum Vitae',
 			Color: '#DBFF33',
 		},
@@ -98,6 +97,9 @@ export function ContactCard() {
 							target='_blank'
 							rel='noreferrer'
 							style={{ color: item.Color }}
+							download={
+								item.Text === 'Curriculum Vitae' ? 'RodrigoCabreraCV.pdf' : null
+							}
 						>
 							{item.Icon}
 						</a>
