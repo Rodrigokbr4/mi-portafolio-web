@@ -17,9 +17,8 @@ export function ProjectsCards() {
 		{
 			Title: 'Tienda X',
 			Description:
-				'En este proyecto, desarrollé una ecommerce ' +
-				'utilizando las siguientes tecnologías: React, Tailwind CSS, HTML,' +
-				' JSX y Vite.',
+				'En este proyecto personal, desarrollé un ecommerce utilizando las siguientes tecnologías: ' +
+				'React, Tailwind CSS, HTML, JSX y Vite.',
 			Img: ImgEcommerce,
 			url: 'https://rodrigokbr4.github.io/mi-primer-tienda-online/',
 			alt: 'Ecommerce',
