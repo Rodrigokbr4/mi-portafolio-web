@@ -12,7 +12,7 @@ export function ProjectsCards() {
 			Img: ImgHotel,
 			url: 'https://ameliehotel.000webhostapp.com/',
 			alt: 'Pagina web Hotel',
-			title: 'Pagina web Hotel',
+			title: 'Ir a Pagina web Hotel',
 		},
 		{
 			Title: 'Tienda X',
@@ -22,7 +22,7 @@ export function ProjectsCards() {
 			Img: ImgEcommerce,
 			url: 'https://rodrigokbr4.github.io/mi-primer-tienda-online/',
 			alt: 'Ecommerce',
-			title: 'Ecommerce',
+			title: 'Ir a pagina web Ecommerce',
 		},
 	]
 	return (
@@ -38,13 +38,7 @@ export function ProjectsCards() {
 							alt={item.alt}
 							title={item.title}
 						>
-							<div className={styles.container}>
-								<img src={item.Img} alt='' className={styles.img} />
-								<div className={styles.middle}>
-									<div className={styles.text}>Ver web</div>
-								</div>
-							</div>
-
+							<img src={item.Img} alt='' className={styles.img} />
 							<h1 className={styles.h1}>{item.Title}</h1>
 							<p className={styles.p}>{item.Description}</p>
 						</a>
