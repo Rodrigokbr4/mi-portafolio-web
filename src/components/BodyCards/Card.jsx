@@ -26,7 +26,7 @@ export function Card() {
 			const newColores = [...colores].reverse()
 			setColores(newColores)
 			setTransitionClass('transition') // Añade la clase de transición
-		}, 5000)
+		}, 300)
 
 		return () => {
 			clearInterval(intervalId)

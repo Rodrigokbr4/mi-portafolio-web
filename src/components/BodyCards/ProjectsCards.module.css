@@ -5,9 +5,11 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     margin: 0;
     padding: 0;
     gap: 2.5rem;
+    overflow: hidden;
 }
 
 .a{
@@ -15,12 +17,51 @@
     padding: 0;
     margin: 0;
 }
+.a:hover .h1,
+.a:hover .p {
+  color: #33ff57;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 .img{
+    height: 100%;
     width: 100%;
     border-radius: 0.4rem;
     padding: 0;
     margin: 0;
+    padding: 0;
+    transition: 100ms all ease-in-out;
+    opacity: 100%;
+    border: 0.15rem solid #2b2b2b;
 }
 
 .h1 {
@@ -32,6 +73,7 @@
     text-align: left;
     margin: 0;
     padding: 0.6rem 0 0 0;
+    transition: 100ms ease-in-out;
 
 }
 
@@ -44,5 +86,13 @@
   @media screen and (min-width: 1025px) {
     .ul {
       gap: 3.8rem;
+    }
+
+    .img{
+      opacity: 90%;
+    }
+
+    .img:hover{
+      opacity: 100%;
     }
   }
