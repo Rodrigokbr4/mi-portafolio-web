@@ -17,8 +17,8 @@
 .li {
   background-color: #2b2b2b;
   padding: 1rem;
-  border-radius: 0.8rem;
-  border:  0.15rem solid #2b2b2b;
+  border-radius: 0.4rem;
+  border:  0.15rem solid #474747;
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 
