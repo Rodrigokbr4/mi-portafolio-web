@@ -80,7 +80,7 @@ export function ContactCard() {
 			href: Curriculum,
 			alt: 'Curriculum Vitae',
 			description: 'Descargar Curriculum Vitae',
-			Text: 'Curriculum Vitae',
+			Text: 'Descargar Curriculum',
 			Color: '#DBFF33',
 		},
 	]
