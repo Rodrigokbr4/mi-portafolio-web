@@ -1,5 +1,5 @@
 import styles from './Header.module.css'
-import perfil from '../../assets/Img/perfil.jpg'
+import perfil from '../../assets/Img/perfil.webp'
 import { Contactos } from '../Contactos/Contactos'
 import { useState, useEffect } from 'react'
 

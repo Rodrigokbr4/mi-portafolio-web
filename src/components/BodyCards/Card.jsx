@@ -16,7 +16,7 @@ export function Card() {
 				'Hola, soy Rodrigo Cabrera, desarrollador web con un título terciario de Técnico Superior en Desarrollo de Software.' +
 				' Mi pasión es la programación y las tecnologías. Disfruto aprendiendo y enfrentando desafíos.',
 		},
-		{ title: 'Portafolio', content: <ProjectsCards /> },
+		{ title: 'Portfolio', content: <ProjectsCards /> },
 		{ title: 'Skills', content: <SkillsCard /> },
 		{ title: 'Contacto', content: <ContactCard /> },
 	]

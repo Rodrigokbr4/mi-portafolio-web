@@ -29,7 +29,7 @@ export function ProjectsCards() {
 		<section className={styles.section}>
 			<ul className={styles.ul}>
 				{ProjectsItems.map((item, index) => (
-					<li key={index} className={styles.ul}>
+					<li key={index} className={styles.li}>
 						<a
 							href={item.url}
 							target='_blank'
