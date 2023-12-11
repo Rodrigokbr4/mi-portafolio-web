@@ -27,6 +27,29 @@
     min-width: 360px;
     max-width: 768px;
   }
+
+  /* Estilos para la barra de desplazamiento en el contenedor principal */
+::-webkit-scrollbar {
+  width: 12px; /* ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #474747; /* color de la barra de desplazamiento */
+  border-radius: 6px; /* esquinas redondeadas */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #2b2b2b; /* color del fondo de la barra de desplazamiento */
+}
+
+/* Estilos adicionales para Firefox */
+/* Puedes ajustar estos estilos según tus preferencias */
+/* Nota: Puedes necesitar prefijos de navegador adicionales para navegadores más antiguos */
+* {
+  scrollbar-color: #2b2b2b #474747;
+  scrollbar-width:thin;
+}
+
   
 @media screen and (max-width: 600px) {
     .Section {
