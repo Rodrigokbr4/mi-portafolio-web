@@ -1,6 +1,5 @@
 import styles from './App.module.css'
 import AnimatedCursor from 'react-animated-cursor'
-import OGImage from './assets/Img/OGImage.webp'
 import { Header } from './components/Header/Header.jsx'
 import { BodyCards } from './components/BodyCards/BodyCards.jsx'
 
