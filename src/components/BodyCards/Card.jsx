@@ -34,18 +34,18 @@ export function Card() {
 	}, [colores])
 
 	return (
-		<div className={styles.card}>
+		<main className={styles.card}>
 			{CardsItems.map((item, index) => (
-				<div key={index} className={styles.cardItem}>
+				<article key={index} className={styles.cardItem}>
 					<h2
 						className={`${styles.cardTitle} ${styles[transitionClass]}`}
 						style={{ color: colores[index % colores.length] }}
 					>
 						{item.title}
 					</h2>
-					<div className={styles.cardContent}>{item.content}</div>
-				</div>
+					<section className={styles.cardContent}>{item.content}</section>
+				</article>
 			))}
-		</div>
+		</main>
 	)
 }

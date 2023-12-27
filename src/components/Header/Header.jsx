@@ -27,7 +27,7 @@ export function Header() {
 	}
 	return (
 		<>
-			<div className={styles.Header}>
+			<header className={styles.Header}>
 				<img
 					src={perfil}
 					alt='Foto de perfil'
@@ -35,7 +35,7 @@ export function Header() {
 					onMouseEnter={handleImageHover}
 					onMouseLeave={handleImageLeave}
 				/>
-				<div className={styles.Env}>
+				<section className={styles.Env}>
 					<h1 className={styles.H1}>Rodrigo Cabrera</h1>
 					<h2
 						className={`${styles.H2} ${styles.transition}`}
@@ -43,11 +43,11 @@ export function Header() {
 					>
 						Web Developer
 					</h2>
-					<div className={styles.Contactos}>
+					<nav className={styles.Contactos}>
 						<Contactos />
-					</div>
-				</div>
-			</div>
+					</nav>
+				</section>
+			</header>
 		</>
 	)
 }
