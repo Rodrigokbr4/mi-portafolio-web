@@ -38,7 +38,13 @@ export function ProjectsCards() {
 							alt={item.alt}
 							title={item.title}
 						>
-							<img src={item.Img} alt='' className={styles.img} />
+							<img
+								src={item.Img}
+								width='640'
+								height='360'
+								alt='Imagen del proyecto'
+								className={styles.img}
+							/>
 							<h1 className={styles.h1}>{item.Title}</h1>
 							<p className={styles.p}>{item.Description}</p>
 						</a>
